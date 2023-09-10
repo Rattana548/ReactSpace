@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .btn{
+        display: block;
+        width: 10.5rem;
+        height: 2rem;
+        background-color: black;
+        color: aliceblue;
+        text-decoration: none;
+        padding: 0.5rem 2rem;
+        box-sizing: border-box;
+        transition: background-color,color 0.5s;
+        border-radius: 5rem;
+
+        & span {
+            color:brown;
+            transition: 0.5s;
+        }
+    }
+
+    .btn:hover{
+        background-color: bisque;
+        color: black;
+
+        & span{
+            color: blue;
+        }
+    }
+</style>
+<body>
+
+    <a href="#" class="btn"><b>GO TO <span>CARD</span></b></a>
+    
+</body>
+</html>
